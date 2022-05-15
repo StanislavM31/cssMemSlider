@@ -3,3 +3,43 @@
 	padding: 0;
 	box-sizing: border-box;
 }
+.wrapper {
+	height: 400px;
+	margin: 100px auto 0;
+	position: relative;
+	width: 700px;
+	border: 2px solid rgb(212, 217, 247);
+	border-radius: 2px;
+	background-color: rgb(46, 46, 46);
+	padding: 1.5em 1.5em 3em;
+}
+.slider{
+	background-color: #ddd;
+	height: 100%;
+	overflow: hidden;
+	position: relative;
+	width: 100%;
+}
+.wrapper>input{
+	display: none;
+}
+.slides {
+	height: inherit;
+	position: absolute;
+	width: inherit;
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center;
+	
+}
+.slide1 { 
+	background-image: url(./img/mem1.jpg);
+}
+.slide2 {
+	background-image: url(./img/mem2.jpeg);
+	width: inherit; 
+}
+.slide3 { 
+	background-image: url(./img/mem3.jpg);
+	width: inherit;
+ }
