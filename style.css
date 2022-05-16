@@ -101,5 +101,5 @@
 #slide1:checked ~ #hw1,
 #slide2:checked ~ #hw2,
 #slide3:checked ~ #hw3 {
-  background: rgb(180, 30, 148);
+	opacity: 0.3;
 }
