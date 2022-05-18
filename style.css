@@ -67,16 +67,16 @@
 	background-color: rgb(95, 204, 247);
 }
 
-/* .wrapper label:after {
-	content: " ";
+.wrapper label:after {
+	content: "";
 	display: block;
-	height: 12px;
-	
 	position: absolute;
-	width: 12px;
+	height: 45px;
+	width: 45px;
 	border-radius: 50%;
-	
-} */
+	top: -15px;
+    right: -15px;
+}
 
 	.wrapper label:hover{
 		border:3px solid #fff;
@@ -97,4 +97,7 @@
 		z-index: 1;
 		transform: scale(1);
 		animation: turner 4s infinite linear;
+	}
+	.controls span {
+		
 	}
