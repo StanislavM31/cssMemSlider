@@ -49,6 +49,10 @@
 	background-image: url(./img/mem3.jpg);
 
  }
+ .slide4 {
+	background-image: url(./img/mem4.png);
+
+ }
 
 .wrapper .controls {
 	left: 50%;
@@ -83,7 +87,8 @@
 	}
 	#slide1:checked ~ .controls label:nth-of-type(1),
 	#slide2:checked ~ .controls label:nth-of-type(2),
-	#slide3:checked ~ .controls label:nth-of-type(3) {
+	#slide3:checked ~ .controls label:nth-of-type(3),
+	#slide4:checked ~ .controls label:nth-of-type(4) {
 		border:1px solid #fff;
 		background: none;
 	}
@@ -97,7 +102,4 @@
 		z-index: 1;
 		transform: scale(1);
 		animation: turner 4s infinite linear;
-	}
-	.controls span {
-		
 	}
